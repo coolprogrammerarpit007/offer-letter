@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* Styling The Logo */
+.main{
+    /* border:1px solid green; */
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-img{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.logo-img img{
+    width: 10%;
+    height: auto;
+}
+
+/* Styling the heading title */
+
+.heading{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+/* Styling the main content */
+
+.main-content{
+    padding: 2rem;
+    /* border:2px solid green; */
+    width: 100%;
+    margin: 1rem auto;
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    min-height: 60vh;
+}
+
+.main-content p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    /* margin-bottom: 4rem; */
+}
+
+/* ******************************************************* */
+/* Footer Section */
+
+footer{
+    border-top: 0.5rem solid red;
+    /* margin-top: 4rem; */
+    width: 100%;
+    margin: auto;
+}
+
+footer p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+footer span{
+    color: rgb(255,0,0,0.6);
+}
+
+footer p{
+    color: rgb(52, 204, 204);
+}
+
+footer p:nth-child(2){
+    margin-left: 5rem;
+}
